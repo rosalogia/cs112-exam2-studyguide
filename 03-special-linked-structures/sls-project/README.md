@@ -14,26 +14,37 @@ Implement the following methods in the `CLL` and `DLL` classes respectively.
 #### CLL
 
 * `prepend` i.e. "insert at front":
+
   Write a method in your CLL class to insert an element `newValue` at the front. Remember that CLLs store a reference to last, and last.next is the front of the list. Think about the possible cases that need to be covered.
+
   **Example Input:** `1->2->3->4->5(last)`, `newValue = 17`, remember that 5 is the stored node last, and it also has a pointer back to 1.
+
   **Example Output:** `17->1->2->3->4->5(last)`, Now 5 points to 17 which points to 1
 * `update`:
   Write a method in your CLL class to set every node in the list whose value is `target` to `newValue`, If there is no node containing `target`, do nothing.
+
   **Example Input** `1->2->3->4->5(last)`, `target = 3`, `newValue = 6`
+
   **Example Output** `1->2->6->4->5(last)`
 * `delete`:
   Write a method in your CLL class to delete the node containing `target` from the list. If there is no node containing `target`, do nothing. Think about the different cases. Remember that if you're using my provided CLL class, `target` is of type T, so comparisons will need to use `.equals()` rather than `==`.
+
   **Example Input:** `1->2->3->4->5(last)`, `target = 3`, remember that 5 is the stored node last, and it also has a pointer back to 1.
+
   **Example Output:** `1->2->4->5(last)`
 
 #### DLL
 * `insertAfter`:
   Write a method in your DLL class to insert an element `newValue` after the node containing `target`. If there is no node containing `target`, do nothing. Think about the possible cases that need to be covered. If you're using my provided DLL class, remember that `newValue` and `target` are of type T so comparisons will have to use `.equals()` rather than `==`.
+
   **Example Input:** `1<->2<->3<->4`, `target = 3`, `newValue = 17`
+
   **Example Output:** `1<->2<->3<->17<->4`
 * `append`: i.e. "insert at end":
   Write a method append() in your DLL class that takes in a T `target` and inserts a new node containing `target` at the end of the DLL.
+
   **Example Input:** `1<->2<->3`, `target = 17`
+
   **Example Output:** `1<->2<->3<->17`
 
 ### Question 3: Queue Implementation
