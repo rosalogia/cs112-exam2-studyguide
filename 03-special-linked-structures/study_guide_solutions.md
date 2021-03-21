@@ -21,7 +21,7 @@
           Node<T> data;
       }
       ```
-    * Allocation: The `CircularLinkedList` class must contain a reference to the last node in the list, which consume 8 bytes
+    * Allocation: The `CircularLinkedList` class must contain a reference to the last node in the list, which consumes 8 bytes
       of space. Therefore the amount of memory allocated for the list must be 8 bytes in addition to the size of a `Node<T>`
       times the number of nodes in the list.
   * Doubly Linked Lists:
