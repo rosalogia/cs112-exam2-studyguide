@@ -16,9 +16,13 @@ This repository contains four folders, each of which correspond to topics which 
 These topics include:
 
 * Special Linked Structures
+  * Everything included except for code solutions and unit tests
 * Binary Search
+  * Under Construction
 * Binary Search Trees
+  * Under Construction
 * Balanced Search Trees
+  * Under Construction
 
 Each folder contains the following contents:
 
