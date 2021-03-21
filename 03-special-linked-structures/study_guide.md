@@ -2,6 +2,8 @@
 
 ## Conceptual Questions
 
+Note: answers to all the questions below can be found in the [lecture slides](https://rutgers.app.box.com/s/eqxrhlv3uxdo1nbutm5jc2l4ntxz5fmz).
+
 1. Describe and illustrate the memory representation (how to make them) and allocation
 (how much space they require) when implementing circular and doubly linked lists.
 
