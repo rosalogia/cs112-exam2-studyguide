@@ -20,7 +20,7 @@ These topics include:
 * Binary Search
   * Under Construction
 * Binary Search Trees
-  * Under Construction
+  * Everything included except for code solutions and unit tests
 * Balanced Search Trees
   * Under Construction
 
