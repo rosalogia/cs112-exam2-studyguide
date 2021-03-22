@@ -8,7 +8,7 @@ in `app/src/test/java/Solutions.java`. Unit tests are provided to ensure that yo
 
 ### Question 2: Create and Implement a BST
 
-Begin implementing a BST class that's generic over `Key extends ComparableKey>, Value` in the file provided. Create all the fields you believe will be necessary, as well
+Begin implementing a BST class that's generic over `Key extends Comparable<Key>, Value` in the file provided. Create all the fields you believe will be necessary, as well
 as a constructor that creates a BST with a given value at its root. Do not worry about implementing any methods on the class, as these
 will be part of the next exercise.
 
