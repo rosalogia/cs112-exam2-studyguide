@@ -9,6 +9,7 @@
    search for the value associated with a given key.
 
    Here is the API for **Ordered** Symbol Tables:
+
    ![Image of Symbol Table API from Sedgwick](https://algs4.cs.princeton.edu/31elementary/images/ordered-symbol-table-api.png)
 
 2. See [Programming Problems](#programming-problems).
@@ -18,8 +19,21 @@
 4. See [Programming Problems](#programming-problems).
 
 5. Identify the best and worst case time complexities for insertions to a BST
-  * Best Case: O(1) when inserting at the root level.
-  * Worst Case: O(n) when e.g. all the nodes are left or right nodes and the item being inserted goes at the bottom.
+  * **Best Case: O(log n) when the tree is balanced**.
+    
+    Why is this? In any
+    BST, the maximum depth you will ever need to reach to make an insertion is equal to
+    the height of the tree. In a balanced tree, the height of the tree is always approximately 
+    log base-2 of the amount of nodes in the tree. Think about why this is: by storing
+    nodes in a binary tree rather than a linked list, we can repeatedly halve the amount of links
+    we need to follow to arrive at a given value (assuming we balance our tree).
+
+  * **Worst Case: O(n)** when e.g. all the nodes are left or right nodes and the item being inserted goes at the bottom.
+  
+    Note: it's worth explicitly mentioning that both the best and worst case (and, indeed, _all_ cases) can be said
+    to have a run-time complexity of O(h) where h is the height of the tree. In the best case, as mentioned, the height
+    is approximately log<sub>2</sub>(n), whereas in the worst case, the height of the tree is equal to n.
+
 
 6. List the pros and cons of using BSTs
     Note: a straight-forward answer to this question isn't properly provided in any of the course materials, so along with
@@ -54,11 +68,11 @@
 10. List at least three real world applications that would best be solved using a BST rather than other data structures studied
     so far. Explain why.
 
-  Recall that BSTs are simply an efficient data structure for implementing the Symbol Table pattern/API. Whenever a Symbol Table
-  is needed or useful, a BST can be used to implement it efficiently. Therefore, the following applications of Symbol Tables
-  can also be considered applications of BSTs.
-  
-  ![Applications of Symbol Tables from Sedgewick](https://algs4.cs.princeton.edu/31elementary/images/symbol-table-applications.png)
+    Recall that BSTs are simply an efficient data structure for implementing the Symbol Table pattern/API. Whenever a Symbol Table
+    is needed or useful, a BST can be used to implement it efficiently. Therefore, the following applications of Symbol Tables
+    can also be considered applications of BSTs.
+    
+    ![Applications of Symbol Tables from Sedgewick](https://algs4.cs.princeton.edu/31elementary/images/symbol-table-applications.png)
 
 11. List at least three real world applications that would best be solved using a data structure other than a BST. Explain why.
   
