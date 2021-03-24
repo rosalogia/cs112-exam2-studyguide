@@ -35,6 +35,7 @@
   * Textbook Website: [3.1 Elementary Symbol Tables](https://algs4.cs.princeton.edu/31elementary/)
   * Lecture Slides (Slide 46): [06. Balanced Search Trees](https://rutgers.app.box.com/s/a98zwkjlzfdfhs3mmvubpm5x2gkvgh16)
 
-## Coding Problems
+## Programming Problems
 
 5. Implement RB tree insert.
+  * Textbook Videos: [Balanced Search Trees: B. Red-Black BSTs](https://cuvids.io/app/video/140/watch)
