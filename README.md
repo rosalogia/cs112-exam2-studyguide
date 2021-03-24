@@ -22,7 +22,7 @@ These topics include:
 * Binary Search Trees
   * Everything included except for code solutions and unit tests
 * Balanced Search Trees
-  * Under Construction
+  * Study Guide without Solutions included
 
 Each folder contains the following contents:
 
